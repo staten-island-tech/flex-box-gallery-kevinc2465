@@ -3,39 +3,38 @@ body,
 * {
 }
 
-body{
-  background-color:coral;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Signika Negative', sans-serif;
-  fle;
+body {
+  background-color: coral;
+  font-family: "Comfortaa", cursive;
+  font-family: "Signika Negative", sans-serif;
 }
-h1{
-  color:darkred;
+h1 {
+  color: darkred;
   font-size: 45px;
   text-align: center;
   padding: 20px;
 }
-img{
-  height:200px;
+img {
+  height: 200px;
   width: 400px;
 }
-h2{
-  color:green;
+h2 {
+  color: green;
   font-size: 30px;
 }
-.animals{
-  background-color:white;
+.animals {
+  background-color: white;
   padding: 20px;
   border: 8px solid navy;
   width: 400px;
   text-align: center;
   margin-bottom: 30px;
+  box-shadow: 10px 10px 10px black;
 }
 
-.row{
+.row {
   display: flex;
   flex-direction: row;
   width: 100vw;
   justify-content: space-around;
 }
-
