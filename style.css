@@ -19,17 +19,16 @@ h1 {
   padding: 2rem;
 }
 .animal-img {
-  width: 90%;
+  width: 110%;
 }
 h2 {
   color: skyblue;
-  font-size: 100%;
   text-align: center;
   width: 100%;
 }
 .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /* width: 100%; */
   justify-content: space-around;
   flex-wrap: wrap;
@@ -43,8 +42,4 @@ h2 {
   margin-bottom: 3%;
   box-shadow: 10px 10px 10px black;
   box-sizing: content-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
