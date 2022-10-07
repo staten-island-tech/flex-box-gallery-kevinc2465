@@ -14,7 +14,7 @@ body {
 }
 h1 {
   color: gold;
-  font-size: 45px;
+  font-size: 4rem;
   text-align: center;
   padding: 2rem;
 }
@@ -32,17 +32,25 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  position: relative;
 }
 .animals {
-  background-color: white;
+  background-color: lightgoldenrodyellow;
   padding: 2rem;
-  border: 0.4rem solid tomato;
+  border: 0.4rem solid palegreen;
   width: 25%;
   margin-bottom: 3%;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
-  position: absolute;
+  -webkit-animation: all 0.3s;
+  transition: all 0.3s;
+}
+.animals:hover{
+  transform: scale(1.1);
+  outline: .5rem solid gold;
+}
+.row:hover .animals:not(:hover){
+  transform: scale(0.5);
+  opacity: 0.3;
 }
 
 @media screen and (max-width: px)
