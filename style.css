@@ -83,15 +83,15 @@ h2 {
   transform: scale(1.1);
   outline: 0.5rem solid gold;
 }
-.gallery:hover .animal-1:not(:hover) {
+.row:hover .animal-1:not(:hover) {
   transform: scale(0.9);
   opacity: 0.3;
 }
-.gallery:hover .animal-2:not(:hover) {
+.row:hover .animal-2:not(:hover) {
   transform: scale(0.9);
   opacity: 0.3;
 }
-.gallery:hover .animal-3:not(:hover) {
+.row:hover .animal-3:not(:hover) {
   transform: scale(0.9);
   opacity: 0.3;
 }
