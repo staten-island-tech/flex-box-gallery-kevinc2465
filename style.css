@@ -11,17 +11,17 @@ body {
   background-color: cyan;
   font-family: "Signika Negative", sans-serif;
   width: 100%;
+  text-align: center;
 }
-h1 {
+.title {
   color: gold;
   font-size: 4rem;
-  text-align: center;
   padding: 2rem;
+
 }
 h2 {
-  color: skyblue;
+  color: rgb(39, 113, 143);
   font-size: 100%;
-  text-align: center;
   width: 100%;
 }
 .gallery {
@@ -32,7 +32,6 @@ h2 {
 }
 .row {
   width: 25%;
-  /* margin-bottom: 2rem; */
 }
 .animal-img {
   width: 100%;
@@ -41,7 +40,6 @@ h2 {
   background-color: lightgoldenrodyellow;
   padding: 2rem;
   border: 0.4rem solid rgb(217, 56, 110);
-  margin-bottom: 4%;
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
@@ -52,7 +50,6 @@ h2 {
   background-color: lightcyan;
   padding: 2rem;
   border: 0.4rem solid lawngreen;
-  margin-bottom: 4%;
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
@@ -63,13 +60,15 @@ h2 {
   background-color: rgb(90, 230, 178);
   padding: 2rem;
   border: 0.4rem solid rgb(118, 106, 222);
-  margin-bottom: 4%;
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   height: 18.2rem;
   -webkit-animation: all 0.3s;
   transition: all 0.3s;
   margin-bottom: 3rem;
+}
+.title:grow{
+
 }
 .animal-1:hover {
   transform: scale(1.1);
@@ -96,4 +95,4 @@ h2 {
   opacity: 0.3;
 }
 
-@media screen and (max-width: px);
+@media screen and (max-width: 620px);
