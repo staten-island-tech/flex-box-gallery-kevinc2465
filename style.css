@@ -18,39 +18,82 @@ h1 {
   text-align: center;
   padding: 2rem;
 }
-.animal-img {
-  width: 100%;
-}
 h2 {
   color: skyblue;
   font-size: 100%;
   text-align: center;
   width: 100%;
 }
-.row {
+.gallery {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.animals {
+.row {
+  width: 25%;
+  /* margin-bottom: 2rem; */
+}
+.animal-img {
+  width: 100%;
+}
+.animal-1 {
   background-color: lightgoldenrodyellow;
   padding: 2rem;
-  border: 0.4rem solid palegreen;
-  width: 25%;
-  margin-bottom: 3%;
+  border: 0.4rem solid rgb(217, 56, 110);
+  margin-bottom: 4%;
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
   transition: all 0.3s;
+  margin-bottom: 3rem;
 }
-.animals:hover{
+.animal-2 {
+  background-color: lightcyan;
+  padding: 2rem;
+  border: 0.4rem solid lawngreen;
+  margin-bottom: 4%;
+  box-shadow: 1.5rem 1.5rem 1.5rem black;
+  box-sizing: border-box;
+  -webkit-animation: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 3rem;
+}
+.animal-3 {
+  background-color: rgb(90, 230, 178);
+  padding: 2rem;
+  border: 0.4rem solid rgb(118, 106, 222);
+  margin-bottom: 4%;
+  box-shadow: 1.5rem 1.5rem 1.5rem black;
+  box-sizing: border-box;
+  height: 18.2rem;
+  -webkit-animation: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 3rem;
+}
+.animal-1:hover {
   transform: scale(1.1);
-  outline: .5rem solid gold;
+  outline: 0.5rem solid navy;
 }
-.row:hover .animals:not(:hover){
-  transform: scale(0.5);
+.animal-2:hover {
+  transform: scale(1.1);
+  outline: 0.5rem solid red;
+}
+.animal-3:hover {
+  transform: scale(1.1);
+  outline: 0.5rem solid gold;
+}
+.gallery:hover .animal-1:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.3;
+}
+.gallery:hover .animal-2:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.3;
+}
+.gallery:hover .animal-3:not(:hover) {
+  transform: scale(0.9);
   opacity: 0.3;
 }
 
-@media screen and (max-width: px)
+@media screen and (max-width: px);
