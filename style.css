@@ -8,19 +8,19 @@ body,
 }
 
 body {
-  background-color: cyan;
+  background-color:rgb(232, 115, 115);
   font-family: "Signika Negative", sans-serif;
   width: 100%;
   text-align: center;
 }
 .title {
-  color: gold;
+  color: rgba(255, 217, 0, 0.804);
   font-size: 4rem;
   padding: 2rem;
 
 }
 h2 {
-  color: rgb(39, 113, 143);
+  color: rgba(0, 149, 255, 0.837);
   font-size: 100%;
   width: 100%;
 }
@@ -28,7 +28,6 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 .row {
   width: 25%;
@@ -38,65 +37,38 @@ h2 {
 }
 .animal-img {
   width: 100%;
+  height: 80%;
 }
-.animal-1 {
-  background-color: lightgoldenrodyellow;
+.animal {
+  background-color:rgb(153, 255, 144) ;
   padding: 2rem;
-  border: 0.4rem solid rgb(217, 56, 110);
+  border: 0.4rem solid rgb(87, 87, 255);
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
   transition: all 0.3s;
   margin-bottom: 3rem;
+  height: 20rem;
 }
-.animal-2 {
-  background-color: lightcyan;
-  padding: 2rem;
-  border: 0.4rem solid lawngreen;
-  box-shadow: 1.5rem 1.5rem 1.5rem black;
-  box-sizing: border-box;
-  -webkit-animation: all 0.3s;
-  transition: all 0.3s;
-  margin-bottom: 3rem;
-}
-.animal-3 {
-  background-color: rgb(90, 230, 178);
-  padding: 2rem;
-  border: 0.4rem solid rgb(118, 106, 222);
-  box-shadow: 1.5rem 1.5rem 1.5rem black;
-  box-sizing: border-box;
-  height: 18.2rem;
-  -webkit-animation: all 0.3s;
-  transition: all 0.3s;
-  margin-bottom: 3rem;
+.view-more {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-end;
+  transition: 0.2s grow;
 }
 .title:hover{
   transform: scale(1.2);
 }
-
-.animal-1:hover {
+.animal:hover {
   transform: scale(1.1);
-  outline: 0.5rem solid navy;
+  outline: 0.5rem solid rgb(214, 243, 67);
 }
-.animal-2:hover {
-  transform: scale(1.1);
-  outline: 0.5rem solid red;
-}
-.animal-3:hover {
-  transform: scale(1.1);
-  outline: 0.5rem solid gold;
-}
-.row:hover .animal-1:not(:hover) {
+.row:hover .animal:not(:hover) {
   transform: scale(0.9);
   opacity: 0.3;
 }
-.row:hover .animal-2:not(:hover) {
-  transform: scale(0.9);
-  opacity: 0.3;
+.view-more:hover {
+  transform: scale(.5);
+  opacity: .2;
 }
-.row:hover .animal-3:not(:hover) {
-  transform: scale(0.9);
-  opacity: 0.3;
-}
-
 @media screen and (max-width: 620px);
