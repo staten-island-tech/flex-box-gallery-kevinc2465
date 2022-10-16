@@ -8,19 +8,18 @@ body,
 }
 
 body {
-  background-color:rgb(232, 115, 115);
+  background-color: rgb(208, 235, 51);
   font-family: "Signika Negative", sans-serif;
   width: 100%;
   text-align: center;
 }
 .title {
-  color: rgba(255, 217, 0, 0.804);
+  color: rgba(86, 186, 217);
   font-size: 4rem;
   padding: 2rem;
-
 }
 h2 {
-  color: rgba(0, 149, 255, 0.837);
+  color: greenyellow;
   font-size: 100%;
   width: 100%;
 }
@@ -32,7 +31,7 @@ h2 {
 .row {
   width: 25%;
 }
-.title{
+.title {
   transition: all 0.5s ease-in-out;
 }
 .animal-img {
@@ -40,9 +39,9 @@ h2 {
   height: 80%;
 }
 .animal {
-  background-color:rgb(153, 255, 144) ;
+  background-color: rgb(207, 173, 87);
   padding: 2rem;
-  border: 0.4rem solid rgb(87, 87, 255);
+  border: 0.4rem solid rgb(255, 235, 120);
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
@@ -50,25 +49,17 @@ h2 {
   margin-bottom: 3rem;
   height: 20rem;
 }
-.view-more {
-  display: flex;
-  justify-content:flex-start;
-  align-items: flex-end;
-  transition: 0.2s grow;
-}
-.title:hover{
+.title:hover {
   transform: scale(1.2);
 }
 .animal:hover {
   transform: scale(1.1);
-  outline: 0.5rem solid rgb(214, 243, 67);
+  outline: 0.5rem solid rgb(0, 0, 239);
 }
+
 .row:hover .animal:not(:hover) {
   transform: scale(0.9);
   opacity: 0.3;
 }
-.view-more:hover {
-  transform: scale(.5);
-  opacity: .2;
-}
+
 @media screen and (max-width: 620px);
