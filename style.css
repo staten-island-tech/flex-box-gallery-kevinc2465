@@ -18,6 +18,7 @@ body {
   font-size: 4rem;
   padding: 2rem;
   transition: font-size 1s;
+  animation: test 5s infinite;
 }
 .sub-title {
   color: greenyellow;
@@ -68,5 +69,26 @@ body {
   transform: scale(0.8);
   opacity: 0.5;
 }
+@keyframes test {
+  0%{
+    color: red;
+  }
+  25%{
+    color: orange;
+  }
+  50%{
+    color: green;
+  }
+  75%{
+    color: blue;
+  }
+  100%{
+    color: purple;
+  }
+}
+@media screen and (max-width: 620px) {
+  
 
-@media screen and (max-width: 620px);
+  }
+}
+
