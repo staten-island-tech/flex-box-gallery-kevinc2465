@@ -87,8 +87,9 @@ body {
   }
 }
 @media screen and (max-width: 620px) {
-  
-
+  .gallery{
+    display: flex;
+    flex-direction: column;
   }
 }
 
