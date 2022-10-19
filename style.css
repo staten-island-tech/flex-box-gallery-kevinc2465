@@ -112,10 +112,25 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  .gallery{
+  .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
+  }
+  .title{
+    font-size: 4rem;
+  }
+  .sub-title{
+    font-size: 100%;
+  }
+
+  .animal{
+    margin-left: 7%; 
+    width: 40%;
+    height: 80%;;
+   }
+  .title:hover{
+    font-size: 6rem;
   }
 
 @media screen and (max-width: 1920px) {
