@@ -18,8 +18,13 @@ h1 {
   background-color: white;
   font-size: 4rem;
   padding: 2rem;
+<<<<<<< HEAD
   /* transition: font-size 1s;
   animation: heading 5s infinite; */
+=======
+  transition: font-size 1s;
+  animation: test 5s infinite;
+>>>>>>> parent of c61abc4 (revisions for media)
 }
 .sub-title {
   color: yellow;
@@ -93,48 +98,41 @@ h1 {
 .view-more:hover {
   transform: scale(1.25);
 }
-.animal-img:hover {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+.animal-img:hover{
+   -webkit-transform: scale(0.9);
+  transform: scale(0.9); 
 }
+<<<<<<< HEAD
 /* @keyframes heading {
   0% {
+=======
+@keyframes test {
+  0%{
+>>>>>>> parent of c61abc4 (revisions for media)
     color: red;
   }
-  25% {
+  25%{
     color: orange;
   }
-  50% {
+  50%{
     color: green;
   }
-  75% {
+  75%{
     color: blue;
   }
-  100% {
+  100%{
     color: purple;
   }
 } */
 
-@media screen and (max-width: 1920px) {
-  .title {
-    font-size: 4rem;
-  }
-  .sub-title {
-    font-size: 2rem;
-  }
-  .title:hover {
-    font-size: 4.5rem;
-  }
-}
-
 @media screen and (max-width: 1024px) {
-  .title {
-    font-size: 2.5rem;
+  .title{
+    font-size: 3rem;
   }
-  .sub-title {
+  .sub-title{
     font-size: 2rem;
   }
-  .animal {
+  .animal{
     width: 43%;
   }
   .animal:hover {
@@ -143,21 +141,25 @@ h1 {
   }
 }
 @media screen and (max-width: 620px) {
-  .gallery {
+  .gallery{
     display: flex;
     flex-direction: column;
   }
-  .title {
+  .title{
     font-size: 2rem;
   }
-  .sub-title {
+  .sub-title{
     font-size: 85%;
   }
-  .animal {
-    margin-left: 7%;
+  .animal{
+    margin-left: 7%; 
     width: 80%;
-  }
-  .title:hover {
+   }
+  .title:hover{
     font-size: 3rem;
   }
 }
+
+
+
+
