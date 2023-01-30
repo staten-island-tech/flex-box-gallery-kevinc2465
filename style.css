@@ -8,20 +8,21 @@ body,
 }
 
 body {
-  background-color: rgb(208, 235, 51);
+  background-color: aqua;
   font-family: "Signika Negative", sans-serif;
   width: 100%;
   text-align: center;
 }
 h1 {
-  color: rgba(86, 186, 217);
+  color: black;
+  background-color: white;
   font-size: 4rem;
   padding: 2rem;
-  transition: font-size 1s;
-  animation: heading 5s infinite;
+  /* transition: font-size 1s;
+  animation: heading 5s infinite; */
 }
 .sub-title {
-  color: greenyellow;
+  color: yellow;
   font-size: 100%;
   width: 100%;
   display: inline-block;
@@ -58,15 +59,21 @@ h1 {
 }
 
 .animal {
-  background-color: rgb(207, 173, 87);
+  background-color: #00ff9d;
   padding: 2rem;
-  border: 0.4rem solid rgb(255, 235, 120);
+  border: 0.4rem solid rgb(103, 161, 255);
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
   transition: all 0.3s;
   margin-bottom: 3rem;
   width: 30%;
+}
+.one{
+  color: rgb(255, 91, 91);
+}
+.two{
+  color: rgb(255, 103, 255);
 }
 .view-more {
   transition: all 0.1s ease-in-out;
@@ -90,7 +97,7 @@ h1 {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
-@keyframes heading {
+/* @keyframes heading {
   0% {
     color: red;
   }
@@ -106,7 +113,7 @@ h1 {
   100% {
     color: purple;
   }
-}
+} */
 
 @media screen and (max-width: 1920px) {
   .title {
