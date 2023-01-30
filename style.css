@@ -8,26 +8,20 @@ body,
 }
 
 body {
-  background-color: aqua;
+  background-color: rgb(208, 235, 51);
   font-family: "Signika Negative", sans-serif;
   width: 100%;
   text-align: center;
 }
 h1 {
-  color: black;
-  background-color: white;
+  color: rgba(86, 186, 217);
   font-size: 4rem;
   padding: 2rem;
-<<<<<<< HEAD
-  /* transition: font-size 1s;
-  animation: heading 5s infinite; */
-=======
   transition: font-size 1s;
-  animation: test 5s infinite;
->>>>>>> parent of c61abc4 (revisions for media)
+  animation: heading 5s infinite;
 }
 .sub-title {
-  color: yellow;
+  color: greenyellow;
   font-size: 100%;
   width: 100%;
   display: inline-block;
@@ -64,21 +58,15 @@ h1 {
 }
 
 .animal {
-  background-color: #00ff9d;
+  background-color: rgb(207, 173, 87);
   padding: 2rem;
-  border: 0.4rem solid rgb(103, 161, 255);
+  border: 0.4rem solid rgb(255, 235, 120);
   box-shadow: 1.5rem 1.5rem 1.5rem black;
   box-sizing: border-box;
   -webkit-animation: all 0.3s;
   transition: all 0.3s;
   margin-bottom: 3rem;
   width: 30%;
-}
-.one{
-  color: rgb(255, 91, 91);
-}
-.two{
-  color: rgb(255, 103, 255);
 }
 .view-more {
   transition: all 0.1s ease-in-out;
@@ -98,41 +86,48 @@ h1 {
 .view-more:hover {
   transform: scale(1.25);
 }
-.animal-img:hover{
-   -webkit-transform: scale(0.9);
-  transform: scale(0.9); 
+.animal-img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
-<<<<<<< HEAD
-/* @keyframes heading {
+@keyframes heading {
   0% {
-=======
-@keyframes test {
-  0%{
->>>>>>> parent of c61abc4 (revisions for media)
     color: red;
   }
-  25%{
+  25% {
     color: orange;
   }
-  50%{
+  50% {
     color: green;
   }
-  75%{
+  75% {
     color: blue;
   }
-  100%{
+  100% {
     color: purple;
   }
-} */
+}
 
-@media screen and (max-width: 1024px) {
-  .title{
-    font-size: 3rem;
+@media screen and (max-width: 1920px) {
+  .title {
+    font-size: 4rem;
   }
-  .sub-title{
+  .sub-title {
     font-size: 2rem;
   }
-  .animal{
+  .title:hover {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .sub-title {
+    font-size: 2rem;
+  }
+  .animal {
     width: 43%;
   }
   .animal:hover {
@@ -141,25 +136,21 @@ h1 {
   }
 }
 @media screen and (max-width: 620px) {
-  .gallery{
+  .gallery {
     display: flex;
     flex-direction: column;
   }
-  .title{
+  .title {
     font-size: 2rem;
   }
-  .sub-title{
+  .sub-title {
     font-size: 85%;
   }
-  .animal{
-    margin-left: 7%; 
+  .animal {
+    margin-left: 7%;
     width: 80%;
-   }
-  .title:hover{
+  }
+  .title:hover {
     font-size: 3rem;
   }
 }
-
-
-
-
